@@ -25,3 +25,7 @@ func CallMaxProfit() {
 	var data = []int{7, 6, 4, 3, 1}
 	fmt.Println(maxProfit(data))
 }
+
+func main() {
+	CallMaxProfit()
+}
