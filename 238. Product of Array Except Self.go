@@ -11,6 +11,7 @@ func productExceptSelf(nums []int) []int {
 		}
 	}
 	var result []int
+
 	for i := range nums {
 		if zeroCount > 1 {
 			result = append(result, 0)
